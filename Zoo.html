@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<title>Animal Reveal</title>
+<link rel="stylesheet" href="Zoo.css">
+<script src="ZooReveal.js" defer></script>
+</head>
+
+<body>
+
+<header>
+<h1>Welcome to Interactive Reveal What's that Animal UI</h1>
+</header>
+
+<main>
+
+
+
+<h2>Click on the buttons below to reveal the animal images</h2>
+
+<section id="Zoo-pics">    
+    <div id="cat-pic" ></div>
+    <div id="dog-pic"> </div>
+    <div id="cow-pic" ></div>
+</section>
+
+
+<div id="buttons">
+<button id = "cat-btn" onclick="revealCat()">Reveal a CAT</button>
+<button id = "dog-btn" onclick="revealDog()">Reveal a DOG</button>
+<button id = "cow-btn" onclick="revealCow()">Reveal a COW</button>
+</div>
+
+<div id="Reset">
+<button onclick="resetZoo()">Reset Zoo</button>
+</div>
+
+<h3 id="Animal_count">Animals on screen: 0</h3>
+
+
+
+</main>
+
+</body>
+</html>
