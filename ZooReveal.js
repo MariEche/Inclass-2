@@ -3,7 +3,7 @@ let animalCount=0;
 function revealCat() {
     const card=document.getElementById("cat-pic");
     card.innerHTML=`
-    <img src="tabby-cat.jpg" alt="cat">
+    <img src="images/tabby-cat.jpg" alt="cat">
     <button onclick="HideCat()">Hide Result</button>
 
     `;
@@ -16,7 +16,7 @@ function revealCat() {
 function revealDog() {
     const card=document.getElementById("dog-pic");
     card.innerHTML=`
-    <img src="dog.jpg" alt="dog">
+    <img src="images/dog.jpg" alt="dog">
     <button onclick="HideDog()">Hide Result</button>
     `;
     document.getElementById("dog-btn").style.backgroundColor="green";
@@ -28,7 +28,7 @@ function revealDog() {
 function revealCow() {
     const card=document.getElementById("cow-pic");
     card.innerHTML=`
-    <img src="cow.jpg" alt="cow">
+    <img src="images/cow.jpg" alt="cow">
     <button onclick="HideCow()">Hide Result</button>
 
     `;
